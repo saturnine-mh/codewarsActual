@@ -12,7 +12,6 @@
 function sumEvenNumbers(input) {
     // [...]
     let evenArray = []
-    let oddNumbers = []
     let result = 0
     
     
@@ -21,8 +20,9 @@ function sumEvenNumbers(input) {
          evenArray.push(input[i])
       }
     }
-    
+
     for(let i = 0; i<evenArray.length; i++){
       result += evenArray[i]
     }
+    return result;
 }
