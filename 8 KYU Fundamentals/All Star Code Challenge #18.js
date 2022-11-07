@@ -8,7 +8,7 @@
 
 // ("Hello", "o")  ==>  1
 // ("Hello", "l")  ==>  2
-// ("", "z")       ==>  0
+//a ("", "z")       ==>  0
 // Notes:
 
 // The first argument can be an empty string
